@@ -14,81 +14,11 @@ This contact management system provides a smooth experience for users to store, 
 
 ---
 
-## ❗ Important Note
 
-This assignment will be followed by a live coding session, where you will be asked to extend or modify the features in a real-time setting. Please ensure to complete the work independently. We value originality and personal effort. Automated tools or external help will be easily detected during our review and may negatively impact the evaluation.
 
----
 
-## 🥇 Evaluation Criteria
 
-- **Functionality**: Successful completion of all CRUD operations (Create, Read, Update, Delete) and their correct implementation.
-- **UI Consistency**: Clean, intuitive interface with proper use of MUI components.
-- **Code Quality**: Well-structured, modular code with clear and readable logic.
-- **Problem-Solving Approach**: Independent approach to tackling challenges and designing the solution.
 
----
-
-## 🗒️ Specifications / Requirements
-
-Below are the detailed requirements for this assignment. Please ensure each aspect is carefully addressed.
-
-### Frontend (ReactJS with MUI Components)
-1. **Create a Contact Form**: 
-   - The form should capture the following details:
-     - First Name
-     - Last Name
-     - Email
-     - Phone Number
-     - Company
-     - Job Title
-   - Use **Material UI (MUI)** components for the form elements, layout, and buttons.
-
-2. **Contacts Table**:
-   - Display all contacts in a table format using the **MUI Table component**.
-   - Columns should include the following attributes:
-     - First Name
-     - Last Name
-     - Email
-     - Phone Number
-     - Company
-     - Job Title
-   - Include **action buttons** for editing and deleting each contact.
-   - Add **pagination and sorting** for better usability.
-
-### Backend (NodeJS)
-1. **API Endpoints**:
-   - `POST /contacts`: Accepts a new contact entry from the frontend and stores it in the database.
-   - `GET /contacts`: Retrieves all contact entries to populate the table on the frontend.
-   - `PUT /contacts/:id`: Updates a specific contact’s information.
-   - `DELETE /contacts/:id`: Deletes a contact from the database.
-
-2. **Error Handling**:
-   - Validation for required fields (e.g., name, email).
-   - Handle and return appropriate error messages for duplicate entries or invalid data submissions.
-
-### Database (Choice of Database)
-1. **Database Setup**:
-   - Use any database of your choice (e.g., PostgreSQL, MySQL, MongoDB).
-   - Ensure CRUD operations are handled properly in the database.
-
-2. **Documentation**:
-   - Briefly describe the database you used and why it is suitable for this project.
-
----
-
-## 🚀 Project Submission
-
-- **Code Repository**: Provide a GitHub (or similar) repository link with the full project code.
-- **ReadMe File**:
-  - Setup instructions to run the project, including database schema script.
-  - A brief description of the project and major technical decisions made.
-  - How each part of the app works (Frontend, Backend, Database).
-  
-- **Challenges and Solutions**:
-  - A short write-up about the challenges you faced during the assignment and how you solved them.
-
----
 
 ## ✨ Features Implemented
 
